@@ -405,7 +405,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u056008687"
+									"varname" : "u294002675"
 								}
 
 							}
@@ -1792,13 +1792,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-20::obj-31" : [ "Feedback1", "FB1", 0 ],
 			"obj-20::obj-32" : [ "Feedback2", "FB2", 0 ],
-			"obj-7::obj-129" : [ "Tempo", "Tempo", 0 ],
-			"obj-20::obj-33" : [ "Damp[1]", "Damp", 0 ],
-			"obj-20::obj-101" : [ "Dry", "Dry", 0 ],
 			"obj-20::obj-26" : [ "bypass[3]", "bypass", 0 ],
-			"obj-7::obj-76" : [ "Transport", "Transport", 0 ]
+			"obj-7::obj-129" : [ "Tempo", "Tempo", 0 ],
+			"obj-7::obj-76" : [ "Transport", "Transport", 0 ],
+			"obj-20::obj-101" : [ "Dry", "Dry", 0 ],
+			"obj-20::obj-33" : [ "Damp[1]", "Damp", 0 ],
+			"obj-20::obj-31" : [ "Feedback1", "FB1", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

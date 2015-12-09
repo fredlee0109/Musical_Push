@@ -75,7 +75,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 910.0, 336.0, 187.0, 116.0 ],
+						"rect" : [ 910.0, 362.0, 187.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
@@ -987,7 +987,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u834009119"
+									"varname" : "u155000427"
 								}
 
 							}
@@ -1980,13 +1980,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13::obj-2" : [ "Rate", "Rate", 0 ],
+			"obj-13::obj-3" : [ "Regen[1]", "Regen", 0 ],
+			"obj-13::obj-23" : [ "bypass[1]", "bypass", 0 ],
 			"obj-13::obj-1" : [ "Width[1]", "Width", 0 ],
 			"obj-7::obj-129" : [ "Tempo", "Tempo", 0 ],
 			"obj-13::obj-28" : [ "Center[1]", "Center", 0 ],
-			"obj-13::obj-23" : [ "bypass[1]", "bypass", 0 ],
-			"obj-13::obj-3" : [ "Regen[1]", "Regen", 0 ],
-			"obj-7::obj-76" : [ "Transport", "Transport", 0 ]
+			"obj-7::obj-76" : [ "Transport", "Transport", 0 ],
+			"obj-13::obj-2" : [ "Rate", "Rate", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

@@ -38,18 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-2",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 306.0, 588.0, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -57,7 +45,7 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"extract" : 1,
-					"id" : "obj-19",
+					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp.Flanger.maxpat",
@@ -75,7 +63,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 913.0, 362.0, 190.0, 116.0 ],
+						"rect" : [ 685.0, 366.0, 190.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -254,7 +242,7 @@
 									"presentation_rect" : [ 132.0, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "bypass",
+											"parameter_longname" : "bypass[1]",
 											"parameter_shortname" : "bypass",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -862,7 +850,7 @@
 									"presentation_rect" : [ 138.75, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Regen",
+											"parameter_longname" : "Regen[1]",
 											"parameter_shortname" : "Regen",
 											"parameter_type" : 0,
 											"parameter_mmax" : 1.0,
@@ -894,7 +882,7 @@
 									"presentation_rect" : [ 93.5, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Rate",
+											"parameter_longname" : "Rate[1]",
 											"parameter_shortname" : "Rate",
 											"parameter_type" : 0,
 											"parameter_mmax" : 10.0,
@@ -927,7 +915,7 @@
 									"presentation_rect" : [ 48.25, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Width",
+											"parameter_longname" : "Width[1]",
 											"parameter_shortname" : "Width",
 											"parameter_type" : 0,
 											"parameter_mmax" : 20000.0,
@@ -955,16 +943,16 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 55.455986, 176.470001, 59.5, 22.0 ],
 									"restore" : 									{
-										"Center" : [ 500.0 ],
-										"Rate" : [ 0.0 ],
-										"Regen" : [ 0.700787 ],
-										"Width" : [ 150.0 ],
+										"Center" : [ 107.911217 ],
+										"Rate" : [ 0.2216 ],
+										"Regen" : [ 0.425197 ],
+										"Width" : [ 1163.665527 ],
 										"bypass" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u121008520"
+									"varname" : "u704001789"
 								}
 
 							}
@@ -1001,7 +989,7 @@
 									"presentation_rect" : [ 3.0, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Center",
+											"parameter_longname" : "Center[1]",
 											"parameter_shortname" : "Center",
 											"parameter_type" : 0,
 											"parameter_mmax" : 2000.0,
@@ -1306,9 +1294,21 @@
  ]
 					}
 ,
-					"patching_rect" : [ 358.0, 283.0, 190.0, 116.0 ],
-					"varname" : "bp.Flanger",
+					"patching_rect" : [ 130.0, 287.0, 190.0, 116.0 ],
+					"varname" : "bp.Flanger[1]",
 					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 306.0, 588.0, 30.0, 30.0 ],
+					"style" : ""
 				}
 
 			}
@@ -1922,7 +1922,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-19", 1 ]
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}
@@ -1931,7 +1931,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-19", 0 ]
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -1946,7 +1946,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
@@ -1955,12 +1955,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-19::obj-28" : [ "Center", "Center", 0 ],
-			"obj-19::obj-2" : [ "Rate", "Rate", 0 ],
-			"obj-19::obj-23" : [ "bypass", "bypass", 0 ],
-			"obj-19::obj-3" : [ "Regen", "Regen", 0 ],
+			"obj-1::obj-3" : [ "Regen[1]", "Regen", 0 ],
+			"obj-1::obj-2" : [ "Rate[1]", "Rate", 0 ],
+			"obj-1::obj-23" : [ "bypass[1]", "bypass", 0 ],
+			"obj-1::obj-1" : [ "Width[1]", "Width", 0 ],
 			"obj-7::obj-129" : [ "Tempo", "Tempo", 0 ],
-			"obj-19::obj-1" : [ "Width", "Width", 0 ],
+			"obj-1::obj-28" : [ "Center[1]", "Center", 0 ],
 			"obj-7::obj-76" : [ "Transport", "Transport", 0 ]
 		}
 ,
